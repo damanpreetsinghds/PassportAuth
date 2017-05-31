@@ -1,0 +1,107 @@
+{
+  "disallowEmptyBlocks": true,
+  "requireSpaceBeforeBinaryOperators": [
+    "+",
+    "/",
+    "*",
+    "=",
+    "==",
+    "===",
+    "!=",
+    "!==",
+    ">",
+    ">=",
+    "<",
+    "<=",
+    "&&",
+    "||"
+  ],
+  "requireSpaceAfterBinaryOperators": [
+    "+",
+    "-",
+    "/",
+    "*",
+    "=",
+    "==",
+    "===",
+    "!=",
+    "!==",
+    ">",
+    ">=",
+    "<",
+    "<=",
+    "&&",
+    "||",
+    ","
+  ],
+  "disallowSpaceBeforeBinaryOperators": [
+    ","
+  ],
+  "disallowKeywords": [
+    "with"
+  ],
+  "disallowKeywordsOnNewLine": [
+    "else"
+  ],
+  "disallowMixedSpacesAndTabs": true,
+  "disallowMultipleLineStrings": true,
+  "disallowSpaceAfterObjectKeys": true,
+  "disallowSpaceAfterPrefixUnaryOperators": [
+    "++",
+    "--",
+    "+",
+    "-",
+    "~",
+    "!"
+  ],
+  "disallowSpaceBeforePostfixUnaryOperators": [
+    "++",
+    "--"
+  ],
+  "disallowSpacesInsideParentheses": true,
+  "disallowTrailingWhitespace": true,
+  "disallowYodaConditions": true,
+  "excludeFiles": [
+    "node_modules/**"
+  ],
+  "requireCapitalizedConstructors": true,
+  "requireCommaBeforeLineBreak": true,
+  "requireOperatorBeforeLineBreak": [
+    "+",
+    "-",
+    "/",
+    "*",
+    "=",
+    "==",
+    "===",
+    "!=",
+    "!==",
+    ">",
+    ">=",
+    "<",
+    "<="
+  ],
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInConditionalExpression": {
+    "afterTest": true,
+    "beforeConsequent": true,
+    "afterConsequent": true,
+    "beforeAlternate": true
+  },
+  "safeContextKeyword": [
+    "self"
+  ],
+  "validateIndentation": 4,
+  "validateQuoteMarks": "'",
+  "jsDoc": {
+    "checkParamNames": true,
+    "requireParamTypes": true,
+    "checkReturnTypes": true,
+    "checkRedundantParams": true,
+    "checkRedundantReturns": true,
+    "requireHyphenBeforeDescription": true
+  }
+}
