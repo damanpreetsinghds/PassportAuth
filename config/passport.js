@@ -158,7 +158,7 @@ module.exports = function (passport) {
 
                     // if the user is logged in but has no local account...
                 } else if (!req.user.email) {
-                    console.log('[passport] req.user');
+
                     // ...presumably they're trying to connect a local account
                     // BUT let's check if the email used to connect a local account is being used by another user
                     try {
@@ -181,7 +181,6 @@ module.exports = function (passport) {
                                 };
 
                                 db.collection(tableName).insertOne(data, function (err, result) {
-
                                     if (err) {
                                         return done(err);
                                     }
